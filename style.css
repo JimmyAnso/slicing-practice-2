@@ -1,0 +1,253 @@
+.header{
+    width:100%;
+    display:flex;
+    background-color: #f4f4f4;
+    text-align: right;
+    font-size:0;
+}
+.header img{
+    display:inline-block;
+    padding:10px;
+}
+.header nav{
+    width:100%;
+    text-align:right;
+}
+.header nav a{
+    display:inline-block;
+    color: grey;
+    font-size:18px;
+    text-align: right;
+    margin:0 10px;
+    padding:0 10px;
+    text-decoration:none;
+    line-height: 58px;
+}
+.header nav a:hover{
+    background-color:orange;
+}
+.banner{}
+.banner img{
+    width:100%;
+}
+.path{
+    display:flex;
+}
+.path li{}
+.path li a{
+    font-size:14px;
+    text-decoration: none;
+    color: #373737;
+}
+.path li a:hover{
+    color:#DCD0C0;
+}
+.path li+li::before{
+    content:"/";
+    padding:0 6px;
+}
+.help {
+    background-color:#c0b283;
+}
+.help .about{
+    
+    display:flex;   
+}
+.help .about img{
+    margin:10px;
+}
+.help .about div h1{
+    padding:6px 6px;
+    font-size:36px;
+    color:white;
+}
+.help .about div p{
+    padding:7px 6px;
+    font-size:18px;
+    color:white;
+    flex-wrap: wrap;
+}
+.help .stats{
+    display:flex;
+    flex-wrap: wrap;
+}
+.help .stats div{
+    /* width:100%; */
+    padding:10px 50px 10px 0;
+    text-align: center;
+    
+}
+.help .stats span{
+    color:darkblue;
+    font-size:18px;
+    font-weight: bolder;
+} 
+.help .stats a{
+    color:#ffee00;
+    font-size: 18px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+.help .stats a:hover{
+    color:skyblue;
+}
+.help .connect{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px 0;
+}
+.help .connect li a{
+    font-size:18px;
+    text-decoration: none;
+    color:#ffee00;
+    font-weight: bolder;
+}
+.help .connect li a:hover{
+    color:skyblue;
+}
+.help .connect li:before{
+    content:"【";
+    padding:0 6px;
+}
+.help .connect li:after{
+    content:"】";
+    padding:0 6px;
+}
+.create{
+    margin:150px 0 0;
+}
+.create>h1{
+    margin:0 0 20px;
+    text-align: center;
+    font-size:50px;
+    width:100%;
+}
+.create .wrap{
+    display:flex;
+    font-size:0;
+    margin:auto;
+}
+.create .wrap .item{
+    display:inline-block;
+    margin:30px;
+    text-align: center;
+}
+.create .wrap .item img{
+    margin:auto;
+    padding:auto;
+}
+.create .wrap .item h1{
+    margin:10px 0;
+    font-size:24px;
+    font-weight: bold;
+    color:orange;
+    text-align: center;
+}
+.create .wrap .item p{
+    color:grey;
+    font-size:16px;
+    text-indent:35px;
+    text-align:left;
+}
+
+.create .wrap .item a{
+    display:inline-block;
+    padding: 4px 8px;
+    font-size: 14px;
+    text-align: center;
+    /* cursor: pointer; */
+    margin:50px 0;
+    color:black;
+    text-decoration: none;
+    border: 2px solid #e7e7e7;
+}
+.create .wrap .item a:hover{
+    cursor: grab;
+}
+
+.create .wrap .item a:focus{
+    cursor: grabbing;
+}
+.join{
+    background-image: 
+   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(https://picsum.photos/1000/600/?random=9);
+   background-size: 100% 100%;
+    text-align:center;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+
+    
+}
+.join h1{
+    color:orange;
+    margin:70px 0;
+    text-align: center;
+    font-size:50px;
+    width:100%;
+}
+.join p{
+    font-size:20px;
+    color:white;
+    margin:100px;
+}
+.join a{
+    
+    padding:10px 20px;
+    font-size: 30px;
+    text-align: center;
+    margin:50px auto;
+    color:#c0b883;
+    text-decoration: none;
+    border: 2px solid #e7e7e7;
+}
+.join a:hover{
+    background-color: white;
+}
+
+.service{
+    background-color: #dcd0c0;
+    margin:100px auto;
+    width:100%;
+    /* text-align: center; */
+    
+}
+.service h1{
+    color:orange;
+    margin:70px 0 ;
+    padding:70px 0 0;
+    text-align: center;
+    font-size:50px;
+    width:100%;
+}
+.service .service-detail {
+    width:800px;
+    padding: 50px 0 0;
+    margin:20px auto;
+}
+.service .service-detail img{
+    float: left;
+    margin:0 10px 5px 0;
+}
+.service .service-detail p{
+    color:grey;
+}
+/* .service .service .clear{
+    clear:both;
+} */
+
+.service .service-img{
+    text-align: center;
+    width:100%;
+    /* padding: 20px 0 0; */
+    margin:0 auto;
+}
+.service .service-img img{
+    margin:0 20px 20px;
+}
+.footer{
+    text-align: center;
+    background-color: #000;
+    color:#888;
+    padding:20px 0;
+}
